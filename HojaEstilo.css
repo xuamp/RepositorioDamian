@@ -1,0 +1,21 @@
+h1{
+	font-size: 55px;
+	color: red;
+}
+
+img{
+	margin-left: 10px;
+	margin-bottom: 75px;
+	margin-top: 75px;
+}
+
+h4{
+	border: 3px red solid;
+	font-family: tahoma;
+    text-align: center;
+}
+
+ul, ol{
+	border: 1px green double;
+	background-color: grey;
+}
