@@ -47,7 +47,7 @@ h6{
 }
 
 .NT{
-	height: 1500px;
+	height: 100%;
 	background-color: white;
 	text-align: center;
 	color: red;
@@ -66,5 +66,40 @@ h6{
 	text-align: justify;
 }
 
+.fr2{
+	background-color: #7531FA;
+	height: 90px;
+}
 
+.fr2 .col{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.fr2 p{
+	color: white;
+	font-size: 40px;
+	font-family: 'Secular One', sans-serif;
+	padding-top: 15px;
+}
+
+.fr2 button{
+	font-size: 30px;
+	border: 4px solid white;
+	border-radius: 1em;
+}
+
+.SC{
+	width: 75%;
+	margin: 0 auto;
+	background-color: lightgray;
+	margin-top: 40px;
+}
+
+.SC p{
+	font-size: 60px;
+	color: black;
+	text-align: center;
+}
 
