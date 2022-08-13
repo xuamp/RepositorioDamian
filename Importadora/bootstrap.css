@@ -95,11 +95,54 @@ h6{
 	margin: 0 auto;
 	background-color: lightgray;
 	margin-top: 40px;
+	border-radius: 7%;
+	padding-bottom: 50px;
+	border: 5px solid #C2DAFF;
+	box-shadow: 5px 5px 3px gray;
+}
+
+h2{
+	font-size: 40px;
+	text-decoration: underline;
+	color: black;
+	font-family: 'Secular One', sans-serif;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.SC img{
+	float: left;
+	border-radius: 40%;
+	width: 25%;
+	margin-right: 30px;
+	margin-top: -25px;
 }
 
 .SC p{
-	font-size: 60px;
-	color: black;
-	text-align: center;
+	font-size: 15px;
+	text-decoration: unset;
 }
 
+hr{
+    border: 2px solid black;
+    border-radius: 10%;
+	width: 100%;
+}
+
+.MP img{
+	float: right;
+	border-radius: 40%;
+	width: 25%;
+	margin-right: 30px;
+	margin-top: -25px;
+}
+
+.clientes{
+	font-size: 40px;
+	text-decoration: underline;
+	color: black;
+	font-family: 'Secular One', sans-serif;
+	text-align: center;
+	margin-bottom: 70px;
+	padding-top: 30px;
+}
