@@ -1,0 +1,4 @@
+.nav a:hover{
+	color: red;
+	transition: color 2s ease;
+}
