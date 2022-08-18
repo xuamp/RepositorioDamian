@@ -352,20 +352,18 @@ hr{
 	border-bottom: 10px double black;
 	position: relative;
 	height: 100px;
+	text-align: center;
  	}
 
 .desplegable p{
-    font-size: 73px;
-    font-weight: 400;
-    font-family: 'Abel', sans-serif;
+    font-size: 55px;
     animation-name: deslizaArriba;
     animation-duration: 3s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
-    left: 40%;
-    position: absolute;
     opacity: 0;
-    top: -40px;
+    width: 80%;
+    float: left;
 }
 
 .desplegable img{
@@ -375,7 +373,6 @@ hr{
     animation-fill-mode: forwards;
     left: 5%;
     width: 15%;
-    position: absolute;
     opacity: 0;
     top: 0px;
     background-color: white;
@@ -447,21 +444,21 @@ hr{
 
 /* ACA COMIENZA LA PAGINA CONTACTO*/
 
-.fotoContacto img{
+.fotoContacto{
 	width: 100%;
-	filter: brightness(30%);
-	position: relative;
+	background-image: url(fondo1.jpg);
 	height: 468px;
+	position: relative;
+	text-align: center;
 }
+
+
 
 .fotoContacto h3{
 	font-size: 130px;
 	color: #00ADEF;
-	position: absolute;
-	top: 150px;
 	opacity: 0;
-	left: 530px;
-    font-family: 'Abel', sans-serif;
+	display: inline-block;
     animation-name: caida;
     animation-delay: 1s;
     animation-duration: 2s;
@@ -472,8 +469,9 @@ hr{
 	font-size: 50px;
 	color: white;
 	position: absolute;
-	top: 450px;
-	left: 772px;
+	top: 350px;
+	left: 48%;
+
 }
 
 .contacForm1{
@@ -481,19 +479,67 @@ hr{
 	justify-content: center;
 }
 
-.contacForm1 div.hijo1{
-	width: 40%;
-	border: 2px solid black;
+.contacForm h4{
+	margin-left: 10%;
+	font-size: 50px;
+	margin-bottom: 5px;
+	margin-top: 30px; 
+	text-decoration: underline;
 }
+
+.contacForm1 div.hijo1{
+	width: 45%;
+}
+
+textarea{
+	width: 80%;
+	height: 60px;
+	overflow: auto;
+	margin-left: 40px;
+	letter-spacing: 2px;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.contacForm1 div.hijo1 input{
+	display: block;
+	margin-left: 40px;
+	width: 80%;
+	height: 25px;
+	margin-top: 30px;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+
+
 
 .contacForm1 div.hijo2{
 	display: flex;
 	flex-wrap: wrap;
-	width: 15%;}
+	width: 20%;}
 
 .contacForm1 div.hijo2 div{
 	display: flex;
 	align-items: center;
+}
+
+span.listaIconos{
+	text-decoration: underline;
+}
+
+.contacForm1 div.hijo2 i{
+	color: #00ACEE;
+	margin-right: 15px;
+	margin-left: 10px;
+	font-size: 30px;
+}
+
+.contacForm1 div.hijo2 .titulo p{
+	font-size: 50px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+
 }
 
 
@@ -556,7 +602,7 @@ hr{
 
 	100%{
 		opacity: 1;
-		transform: translate(0px, -30px);
+		transform: translate(0px, -20px);
 
 
 	}
@@ -566,12 +612,12 @@ hr{
 
 	from{
 		opacity: 0;
-		top: 100px;
+		margin-top: 45px;
 
 	}
 
 	to{
 		opacity: 1;
-		top: 150px;
+		margin-top: 150px;
 	}
 }
