@@ -6,6 +6,27 @@ body{
 background-color: white;	
 object-fit: contain;
 
+
+}
+
+main{
+	margin-top: 0;
+}
+
+main a.colgante img{
+	position: fixed;
+	border: 2px solid green;
+	border-radius: 15%;
+	height: 75px;
+	top: 650px;
+	left: 1430px;
+	box-sizing: border-box;
+	z-index: 1;
+	opacity: 0;
+	animation-name: caida2;
+	animation-delay: 1s;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
 }
 
 
@@ -544,6 +565,8 @@ span.listaIconos{
 
 
 
+
+
 	/* efectos hover de aca en adelante */
 
 
@@ -619,5 +642,19 @@ span.listaIconos{
 	to{
 		opacity: 1;
 		margin-top: 150px;
+	}
+}
+
+@keyframes caida2{
+
+	from{
+		opacity: 0;
+		top: 600px;
+
+	}
+
+	to{
+		opacity: 1;
+		top: 650px;
 	}
 }
