@@ -561,7 +561,7 @@ span.listaIconos{
 /* ACA ARRANCA LA SECCION SERVICIOS*/
 
 .PresentacionFoto{
-	background-image: url(../image/Presentacion.jpg);
+	background-image: url(../Image/Presentacion.jpg);
 	height: 370px;
 	background-attachment: fixed;
 	width: 100%;}

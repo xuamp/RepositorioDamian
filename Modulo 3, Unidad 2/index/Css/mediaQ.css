@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 500px){
+@media (max-width: 500px){
 
 .fotoGrande{
 	display: flex;
@@ -105,7 +105,7 @@ margin-left: 10%;
 }
 
 .contacto1 img{
-	width: 80%;
+	width: 70%;
 }
 
 .contacto1 p{
@@ -162,5 +162,6 @@ padding-top: 15px;
 	width: 0px;
 }
 
+}
 
 
