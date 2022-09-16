@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.contenedor{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.contenedorS{
+	width: 40%;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+    justify-content: space-around;
+	height: 100%;
+}
+
+textarea{
+	height: 25%;
+}
+
+label{
+	font-family: 'Cairo Play', cursive;
+	color: #6B6E8F;
+	}
+
+input{
+	height: 5%;
+}	
+
+img{
+	border-radius: 1em;
+	padding-left: 2%;
+}
